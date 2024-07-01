@@ -5,7 +5,7 @@ docker run --name mariadb-backup --rm \
 -v /var/log/:/var/log \
 -e DB_EXCLUDE="mysql performance_schema information_schema" \
 -e DB_PASSWORD=password \
--e DB_USER=root \
+-e DB_USER=user \
 -e DB_HOST="10.50.0.212" \
 -e MINIO_HOST="10.20.0.83:9000" \
 -e MINIO_ACCESS_KEY=minio \
