@@ -12,7 +12,6 @@ docker run --name mariadb-backup --rm \
 -e MINIO_SECRET_KEY=password \
 -e MINIO_BUCKET_NAME=backup-all-dbs \
 -it mariadb-backup:v2.0.0
-# -it registry.gitlab.com/invisible_bits/docker/mysql-backups:latest
 
 # build image
 # docker build -t mariadb-backup:v1.0.0 .
